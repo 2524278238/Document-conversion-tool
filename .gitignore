@@ -5,7 +5,8 @@ __pycache__/
 *.so
 .Python
 build/
-dist/
+# dist/
+!dist/*.exe
 develop-eggs/
 eggs/
 .eggs/
