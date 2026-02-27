@@ -1,0 +1,27 @@
+# 文件转换工具依赖包
+
+# Word和PDF互转
+docx2pdf>=0.1.8
+pdf2docx>=0.5.6
+
+# Word文档处理（用于处理修订标记）
+pywin32>=306  # Windows平台的COM接口
+python-docx>=0.8.11
+
+# 图片处理
+Pillow>=9.0.0
+reportlab>=3.6.0
+
+# PDF处理 (选择其一即可)
+PyMuPDF>=1.20.0
+# pdf2image>=1.16.0  # 备用选择，需要poppler
+
+# 基础依赖
+pathlib2>=2.3.6; python_version<"3.4"
+
+# 扫描功能依赖
+opencv-python>=4.5.0
+numpy>=1.19.0
+
+# 打包工具
+pyinstaller>=5.0.0
