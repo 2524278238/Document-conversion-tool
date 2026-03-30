@@ -1,0 +1,3 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: mammoth in c:\users\lyt\anaconda3\envs\rag\lib\site-packages (1.11.0)
+Requirement already satisfied: cobble<0.2,>=0.1.3 in c:\users\lyt\anaconda3\envs\rag\lib\site-packages (from mammoth) (0.1.4)
